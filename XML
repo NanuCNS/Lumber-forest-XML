@@ -16,3 +16,17 @@
     <team id="red-team" color="dark red" max="20">Red Team</team>
     <team id="blue-team" color="blue" max="20">Blue Team</team>
 </teams>
+
+<spawns>
+    <spawn team="red-team" kit="red">
+        <point yaw="-45">
+            <cylinder base="#" height="0" radius="2"/>
+        </point>
+    </spawn>
+    <spawn team="blue-team" kit="blue">
+        <point yaw="-135">
+            <cylinder base="#" height="0" radius="2"/>
+        </point>
+    </spawn>
+    <default yaw="-90"><cuboid min="#" max="#"/></default>
+</spawns>
