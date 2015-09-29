@@ -31,3 +31,24 @@
     <default yaw="0"><cuboid min="-740 27 31" max="-737 27 34"/></default>
 </spawns>
 
+<destroyables completion="100%" materials="obsidian" mode-changes="true">
+    <destroyable name="Monument A" owner="blue">
+      <cuboid min="#" max="#"/>
+    </destroyable>
+    <destroyable name="Monument B" owner="blue">
+      <cuboid min="#" max="#"/>
+    </destroyable>
+    <destroyable name="Monument C" owner="blue">
+      <cuboid min="#" max="#"/>
+    </destroyable>
+    <destroyable name="Monument A" owner="red">
+      <cuboid min="#" max="#"/>
+    </destroyable>
+     <destroyable name="Monument B" owner="red">
+      <cuboid min="#" max="#"/>
+    </destroyable>
+    <destroyable name="Monument C" owner="red">
+      <cuboid min="#" max="#"/>
+    </destroyable>
+
+</destroyables>
