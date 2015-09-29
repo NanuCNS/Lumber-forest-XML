@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<map proto="1.4.0">
+
+
+<nameWoodland</name>
+<version>1.0.0</version>
+
+
+<objective>Break the obsidian from the enemy team's monuments.</objective>
+<authors>
+    <author uuid="c14862ba-058a-44a2-a1c3-bfb0b462e198"/> <!--  Nanu  -->
+</authors>
