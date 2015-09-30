@@ -20,12 +20,12 @@
 <spawns>
     <spawn team="red-team" kit="red">
         <point yaw="-90">
-            <cylinder base="-844 10 -25" height="0" radius="2"/>
+            <cylinder base="-843.5 10 -24.5" height="0" radius="2"/>
         </point>
     </spawn>
     <spawn team="blue-team" kit="blue">
         <point yaw="90">
-            <cylinder base="-633 10 -31" height="0" radius="2"/>
+            <cylinder base="-632.5 10 -30.5" height="0" radius="2"/>
         </point>
     </spawn>
     <default yaw="0"><cuboid min="-740 27 31" max="-737 27 34"/></default>
