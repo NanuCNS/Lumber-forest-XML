@@ -33,13 +33,13 @@
 
 <destroyables completion="100%" materials="obsidian" mode-changes="true">
     <destroyable name="Monument A" owner="blue">
-      <cuboid min="#" max="#"/>
+      <cuboid min="-794 17 -28" max="-795 19 -29"/>
     </destroyable>
     <destroyable name="Monument B" owner="blue">
-      <cuboid min="#" max="#"/>
+      <cuboid min="-816 12 -19" max="-817 14 -20"/>
     </destroyable>
     <destroyable name="Monument C" owner="blue">
-      <cuboid min="#" max="#"/>
+      <cuboid min="-845 22 -41" max="-846 24 -42"/>
     </destroyable>
     <destroyable name="Monument A" owner="red">
       <cuboid min="#" max="#"/>
