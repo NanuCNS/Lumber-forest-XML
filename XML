@@ -3,7 +3,7 @@
 <map proto="1.4.0">
 
 
-<nameWoodland</name>
+<name>Woodland</name>
 <version>1.0.0</version>
 
 
@@ -32,23 +32,64 @@
 </spawns>
 
 <destroyables completion="100%" materials="obsidian" mode-changes="true">
+    
     <destroyable name="Monument A" owner="blue">
       <cuboid min="-683 17 -28" max="-682 19 -27"/>
     </destroyable>
+    
     <destroyable name="Monument B" owner="blue">
       <cuboid min="-661 12 -37" max="-660 14 -36"/>
     </destroyable>
+    
     <destroyable name="Monument C" owner="blue">
       <cuboid min="-632 22 -15" max="-631 24 -14"/>
     </destroyable>
+    
     <destroyable name="Monument A" owner="red">
       <cuboid min="-794 17 -28" max="-795 19 -29"/>
     </destroyable>
-     <destroyable name="Monument B" owner="red">
+    
+    <destroyable name="Monument B" owner="red">
       <cuboid min="-816 12 -19" max="-817 14 -20"/>
     </destroyable>
+    
     <destroyable name="Monument C" owner="red">
       <cuboid min="-845 22 -41" max="-846 24 -42"/>
     </destroyable>
 
 </destroyables>
+
+<regions>
+    <rectangle min="-635,232" max="-556,377" id="playable" />
+    <apply block-physics="deny-icemelt" region="playable"/>
+
+    <apply block="never" message="Please don't edit the spawns!">
+        <region>
+            <cylinder base="-619.5,10,259.5" height="6" radius="7"/> <!-- West Red -->
+            <cylinder base="-571.5,10,259.5" height="6" radius="7"/> <!-- East -->
+            <cylinder base="-619.5,10,349.5" height="6" radius="7"/> <!-- West Blue -->
+            <cylinder base="-571.5,10,349.5" height="6" radius="7"/> <!-- East -->
+        </region>
+    </apply>
+    <apply block="never" message="You may not build outside of the playing field.">
+        <region>
+            <negative>
+                <region id="playable"/>
+            </negative>
+        </region>
+    </apply>
+    <apply enter="never" message="Don't enter the observers spawn area!">
+        <region>
+            <cuboid min="-535,10,313" max="-549,oo,295"/>
+        </region>
+    </apply>
+    <apply block="never" message="You have reached the maximum build limit!">
+        <region>
+            <complement>
+                <cuboid id="above-20" min="-oo,21,-oo" max="oo,oo,oo"/>
+                <cylinder id="tower-a" base="-621.5,20,304.5" radius="5" height="3"/>
+                <cylinder id="tower-b" base="-569.5,20,304.5" radius="5" height="3"/>
+            </complement>
+        </region>
+    </apply>
+</regions>
