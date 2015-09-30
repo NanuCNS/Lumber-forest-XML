@@ -60,15 +60,13 @@
 </destroyables>
 
 <regions>
-    <rectangle min="-635,232" max="-556,377" id="playable" />
+    <rectangle min="-612,5" max="-865,-61" id="playable" />
     <apply block-physics="deny-icemelt" region="playable"/>
 
-    <apply block="never" message="Please don't edit the spawns!">
+    <apply block="never" message="Please don't edit your spawn room !">
         <region>
-            <cylinder base="-619.5,10,259.5" height="6" radius="7"/> <!-- West Red -->
-            <cylinder base="-571.5,10,259.5" height="6" radius="7"/> <!-- East -->
-            <cylinder base="-619.5,10,349.5" height="6" radius="7"/> <!-- West Blue -->
-            <cylinder base="-571.5,10,349.5" height="6" radius="7"/> <!-- East -->
+          <cuboid min="-639 9 -34" max="-631 14 -28"/> <!-- Blue spawn room -->
+          <cuboid min="-838 9 -22" max="-846 14 -28"/> <!-- Red spawn room -->
         </region>
     </apply>
     <apply block="never" message="You may not build outside of the playing field.">
