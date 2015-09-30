@@ -59,6 +59,12 @@
 
 </destroyables>
 
+<filters>
+    <deny id="deny-icemelt">
+        <material>ice</material>
+    </deny>
+</filters>
+
 <regions>
     <rectangle min="-612,5" max="-865,-61" id="playable" />
     <apply block-physics="deny-icemelt" region="playable"/>
@@ -78,7 +84,7 @@
     </apply>
     <apply enter="never" message="Don't enter the observers spawn area!">
         <region>
-            <cuboid min="-535,10,313" max="-549,oo,295"/>
+            <cuboid min="-728,20,6" max="-751,oo,53"/>
         </region>
     </apply>
     <apply block="never" message="You have reached the maximum build limit!">
