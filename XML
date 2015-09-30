@@ -119,12 +119,41 @@
         <helmet color="cd0000" material="leather helmet"/>
         <chestplate color="cd0000" enchantment="protection environmental:1" material="leather chestplate"/>
         <leggings color="cd0000" material="leather leggings"/>
-        <boots color="cd0000" material="leather boots"/>
     </kit>
     <kit id="blue" parents="spawn">
         <helmet color="0066cc" material="leather helmet"/>
         <chestplate color="0066cc" enchantment="protection environmental:1" material="leather chestplate"/>
         <leggings color="0066cc" material="leather leggings"/>
-        <boots color="0066cc" material="leather boots"/>
     </kit>
 </kits>
+
+<toolrepair>
+    <tool>stone sword</tool>
+    <tool>diamond pickaxe</tool>
+    <tool>iron axe</tool>
+    <tool>bow</tool>
+</toolrepair>
+
+<itemremove>
+    <item>emerald</item>
+    <item>arrow</item>
+    <item>leather helmet</item>
+    <item>leather chestplate</item>
+    <item>leather leggings</item>
+    <item>wood</item>
+    <item>cooked chicken</item>
+    <item>obsidian</item>
+</itemremove>
+
+<kill-rewards>
+    <kill-reward>
+        <item amount="1" material="emerald"/>
+    </kill-reward>
+</kill-rewards>
+
+<tnt>
+    <instantignite>on</instantignite>
+    <blockdamage>off</blockdamage>
+</tnt>
+
+</map>
