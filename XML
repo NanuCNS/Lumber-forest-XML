@@ -159,6 +159,7 @@
 <tnt>
     <instantignite>on</instantignite>
     <blockdamage>off</blockdamage>
+    <fuse>2s</fuse>
 </tnt>
 
 </map>
