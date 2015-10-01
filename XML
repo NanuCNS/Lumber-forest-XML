@@ -13,8 +13,8 @@
 </authors>
 
 <teams>
-    <team id="red-team" color="dark red" max="20">Red Team</team>
-    <team id="blue-team" color="blue" max="20">Blue Team</team>
+    <team id="red-team" color="dark red" max="30" max-overfill="35"/>Red Team</team>
+    <team id="blue-team" color="blue" max="30" max-overfill="35"/>Blue Team</team>
 </teams>
 
 <spawns>
