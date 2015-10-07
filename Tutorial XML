@@ -1,1 +1,12 @@
-
+<tutorial>
+    <stage title="Capture the Wool">
+        <message>
+            <line>`rThis map is a `a`lCapture the Wool `r(CTW) map</line>
+            <line>The objective is to grab the wool on the other team's side and return it to your base.</line>
+        </message>
+        <teleport>
+            <point yaw="90" pitch="50">44,60,0</point>
+        </teleport>
+    </stage>
+    <!-- next stages -->
+</tutorial>
