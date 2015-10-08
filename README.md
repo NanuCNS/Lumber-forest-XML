@@ -1,5 +1,5 @@
 # Lumber Forest-XML
-Lumber Forest a DTM map by Nanu for Overcast Network
+Lumber Forest a DTM map by Nanu for <b>Overcast Network<b>
 
 <h3>CONTACT</h3>
 
