@@ -11,7 +11,31 @@
     </stage>
 
 
-    <stage title="Destroy the Monument">
+    <stage title="The Monument">
+       <teleport>
+          <point angle="21.5,15.5,0.5">50,48,0.5</point>
+       </teleport>
+           <message>
+             <line>The monument's two `5obsidian blocks `rare located in the center of the `9large balloon`r.</line>
+             <line>ote that there is also a monument on `9Blue Team`r's side.</line>
+             <line>`4Red Team `rmust defend their monument from `9Blue Team `rinvaders, and vice versa.</line>
+           </message>
+    </stage>
+
+    
+    <stage title="Your side">
+       <teleport>
+          <point angle="21.5,15.5,0.5">50,48,0.5</point>
+       </teleport>
+           <message>
+              <line>The objective is `3Destroy the Monument`r.</line>
+              <line>Your team can win by destroying all of the other team's `4monuments`r, which consists of two `5obsidian blocks`r.</line>
+           </message>
+    </stage>
+
+
+    
+    <stage title="Item">
        <teleport>
           <point angle="21.5,15.5,0.5">50,48,0.5</point>
        </teleport>
@@ -23,11 +47,14 @@
 
 
 
-
-
-
-
-
-
+    <stage title="Finish">
+       <teleport>
+          <point angle="21.5,15.5,0.5">50,48,0.5</point>
+       </teleport>
+           <message>
+              <line>The objective is `3Destroy the Monument`r.</line>
+              <line>Your team can win by destroying all of the other team's `4monuments`r, which consists of two `5obsidian blocks`r.</line>
+           </message>
+    </stage>
 
 </tutorial>
