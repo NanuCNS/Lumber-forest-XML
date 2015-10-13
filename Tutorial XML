@@ -1,12 +1,33 @@
 <tutorial>
-    <stage title="Capture the Wool">
-        <message>
-            <line>`rThis map is a `a`lCapture the Wool `r(CTW) map</line>
-            <line>The objective is to grab the wool on the other team's side and return it to your base.</line>
-        </message>
-        <teleport>
-            <point yaw="90" pitch="50">44,60,0</point>
-        </teleport>
+    
+    <stage title="Destroy the Monument">
+       <teleport>
+          <point angle="21.5,15.5,0.5">50,48,0.5</point>
+       </teleport>
+           <message>
+              <line>The objective is `3Destroy the Monument`r.</line>
+              <line>Your team can win by destroying all of the other team's `4monuments`r, which consists of two `5obsidian blocks`r.</line>
+           </message>
     </stage>
-    <!-- next stages -->
+
+
+    <stage title="Destroy the Monument">
+       <teleport>
+          <point angle="21.5,15.5,0.5">50,48,0.5</point>
+       </teleport>
+           <message>
+              <line>The objective is `3Destroy the Monument`r.</line>
+              <line>Your team can win by destroying all of the other team's `4monuments`r, which consists of two `5obsidian blocks`r.</line>
+           </message>
+    </stage>
+
+
+
+
+
+
+
+
+
+
 </tutorial>
