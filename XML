@@ -80,6 +80,12 @@
           <cuboid min="-838 9 -22" max="-846 14 -28"/> <!-- Red spawn room -->
         </region>
     </apply>
+     <apply block="never" message="Please don't edit your Bottle o' Enchanting spawner room !">
+        <region>
+          <cuboid min="-638 1 -31" max="-635 3 -28"/> <!-- Blue Bottle o' Enchanting  spawn room -->
+          <cuboid min="-839 1 -25" max="-842 3 -28"/> <!-- Red Bottle o' Enchanting  spawn room -->
+        </region>
+    </apply>
     <apply block="never" message="You may not build outside of the playing field.">
         <region>
             <negative>
@@ -173,11 +179,6 @@
     <damage ally="true" self="false" enemy="false" other="false">block explosion</damage>
 </disabledamage>
 
-
-
-
-
-<include src="tutorial.xml"/>
 
 
 
